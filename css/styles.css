@@ -187,6 +187,8 @@ ul {
 .hero {
     background-color: var(--second-bg-cl);
     padding: 200px 0px;
+    background-image: url(../images/icons.svg/Img-1.svg);
+    background-repeat: no-repeat;
 }
 
 .main .list,
