@@ -204,7 +204,7 @@ ul {
     margin-right: auto;
     max-width: 1600px;
     padding: 200px 0px;
-    background-image: url(../images/portfolio/img-f.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/portfolio/img-f.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
@@ -342,7 +342,7 @@ ul {
     height: 44px;
     border-color: var(--light-txt-cl);
     border-radius: 50%;
-    fill: var(--main-icon-cl);
+    color: var(--main-icon-cl);
 }
 
 .social-list {
@@ -352,6 +352,10 @@ ul {
     padding-bottom: 30px;
 }
 
+.social-icon {
+    fill: currentColor;
+}
+
 .social-item:hover .social-icon,
 .social-item:focus .social-icon {
     fill: var(--light-txt-cl);
@@ -359,6 +363,7 @@ ul {
 
 .social-link:hover,
 .social-link:focus {
+    color: var(--light-txt-cl);
     background-color: var(--accent-txt-cl);
 }
 
@@ -467,7 +472,6 @@ ul {
 
 .variation-link {
     display: block;
-    outline: none;
 }
 
 .variation-link:hover,
